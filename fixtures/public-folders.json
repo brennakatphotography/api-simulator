@@ -1,0 +1,59 @@
+{
+  "data": [{
+    "id": 17,
+    "name": "winter",
+    "description": "Taken on a particularly snowy day during a storm in April 2013.",
+    "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "sub_folders": []
+  }, {
+    "id": 13,
+    "name": "dogs",
+    "description": "Puppies!",
+    "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "sub_folders": [{
+      "id": 131,
+      "name": "more dogs",
+      "description": "Puppies Group 1",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }, {
+      "id": 90,
+      "name": "even more dogs",
+      "description": "I can't get enough puppies!!!!!!11!",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": [{
+        "id": 101,
+        "name": "experiments with filters",
+        "description": "Instagrammed puppies.",
+        "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "sub_folders": []
+      }]
+    }]
+  }, {
+    "id": 129,
+    "name": "Zimbabwe",
+    "description": "My crazy trip to Africa.",
+    "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "sub_folders": [{
+      "id": 233,
+      "name": "People",
+      "description": "Interesting people I met",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }, {
+      "id": 234,
+      "name": "Wild life",
+      "description": "Dangerous animals",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }]
+  }]
+}

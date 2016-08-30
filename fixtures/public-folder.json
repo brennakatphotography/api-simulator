@@ -1,0 +1,38 @@
+{
+  "data": {
+    "id": 13,
+    "name": "dogs",
+    "description": "Puppies!",
+    "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "photos": [{
+      "id": 18,
+      "name": "Rover",
+      "description": "Boy is he ugly!!!!1!",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }, {
+      "id": 19,
+      "name": "Bilbo",
+      "description": "I took a nap and cuddle Bilbo for 3 hours.",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }, {
+      "id": 23,
+      "name": "Ruffles",
+      "description": "Can I haz?",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }, {
+      "id": 21,
+      "name": "Jugulator",
+      "description": "He bit me!",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }]
+  }
+}
