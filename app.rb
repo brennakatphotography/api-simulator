@@ -2,18 +2,22 @@ require 'sinatra/base'
 require 'sinatra/namespace'
 require './helpers/json'
 require './helpers/auth'
-require './routes/photos'
-require './routes/folders'
+require './helpers/cors'
 require './routes/auth'
-require './cors'
+require './routes/folders'
+require './routes/photos'
 
 class PhotoAPI < Sinatra::Base
   use Cors
-  use Photos
-  use Folders
   use Auth
+  use Folders
+  use Photos
 
   get '/healthcheck' do
-    json_response :system => "OK"
+    json_response :system => 'OK'
+  end
+
+  get '/test' do
+    json_response :test => 'success'
   end
 end
