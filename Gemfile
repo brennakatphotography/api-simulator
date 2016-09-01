@@ -1,3 +1,5 @@
+gem 'dotenv'
 gem 'rack'
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'jwt'
