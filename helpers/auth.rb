@@ -23,7 +23,7 @@ def get_auth_token
   token && token[7..-1]
 end
 
-def valid_token?
+def logged_in?
   begin
     !!(JWT.decode get_auth_token, ENV['TOKEN_SECRET'], true, { :algorithm => 'HS256' })
   rescue

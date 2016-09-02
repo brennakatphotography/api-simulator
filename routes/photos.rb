@@ -1,6 +1,5 @@
 require './routes/private/photos'
 
-
 class Photos < Sinatra::Base
   register Sinatra::Namespace
 
@@ -8,7 +7,7 @@ class Photos < Sinatra::Base
     use PrivatePhotos
 
     get '/:id' do
-      send_file File.expand_path 'fixtures/test.jpg'
+      send_file File.expand_path 'fixtures/photo.jpg'
     end
   end
 end
