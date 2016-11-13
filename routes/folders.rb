@@ -7,7 +7,8 @@ class Folders < Sinatra::Base
     use PrivateFolders
 
     get '' do
-      json_response read_fixture 'folders.json'
+      fixture = (params['name']) ? 'folder.json' : 'folders.json'
+      json_response read_fixture fixture
     end
 
     get '/:id' do
