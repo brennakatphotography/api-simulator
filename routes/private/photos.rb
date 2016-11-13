@@ -7,11 +7,6 @@ class PrivatePhotos < Sinatra::Base
       json_response succeed 'Photo saved', { :id => 971 }
     end
 
-    get '/:id' do
-      pass unless logged_in?
-      send_file File.expand_path 'fixtures/private/photo.jpg'
-    end
-
     post '/:id' do
       pass unless logged_in?
       json_response succeed 'Photo version saved', nil
@@ -30,11 +25,6 @@ class PrivatePhotos < Sinatra::Base
     get '/:id/history' do
       pass unless logged_in?
       json_response read_fixture 'private/history.json'
-    end
-
-    get '/:id/history/:history_id' do
-      pass unless logged_in?
-      send_file File.expand_path 'fixtures/private/history.jpg'
     end
   end
 end

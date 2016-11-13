@@ -14,7 +14,7 @@ class PrivateFolders < Sinatra::Base
 
     get '/root' do
       pass unless logged_in?
-      json_response read_fixture 'folder.json'
+      json_response read_fixture 'root.json'
     end
 
     get '/:id' do

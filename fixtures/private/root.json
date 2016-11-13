@@ -1,0 +1,134 @@
+{
+  "success": true,
+  "message": null,
+  "data": [{
+    "photos": [{
+      "id": 18,
+      "name": "Rover",
+      "description": "Boy is he ugly!!!!1!",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }, {
+      "id": 19,
+      "name": "Bilbo",
+      "description": "I took a nap and cuddle Bilbo for 3 hours.",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }, {
+      "id": 23,
+      "name": "Ruffles",
+      "description": "Can I haz?",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }, {
+      "id": 21,
+      "name": "Jugulator",
+      "description": "He bit me!",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "uploaded_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)"
+    }],
+    "folders": [{
+      "id": 1,
+      "name": "PUBLIC",
+      "description": "Public Folder",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }, {
+      "id": 2,
+      "name": "TRASH",
+      "description": "Trash Folder",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": [{
+        "id": 131,
+        "name": "more dogs",
+        "description": "Puppies Group 1",
+        "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "sub_folders": []
+      }, {
+        "id": 90,
+        "name": "even more dogs",
+        "description": "I can't get enough puppies!!!!!!11!",
+        "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "sub_folders": [{
+          "id": 101,
+          "name": "experiments with filters",
+          "description": "Instagrammed puppies.",
+          "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+          "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+          "sub_folders": []
+        }]
+      }]
+    }, {
+      "id": 129,
+      "name": "Zimbabwe",
+      "description": "My crazy trip to Africa.",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": [{
+        "id": 233,
+        "name": "People",
+        "description": "Interesting people I met",
+        "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "sub_folders": []
+      }, {
+        "id": 234,
+        "name": "Wild life",
+        "description": "Dangerous animals",
+        "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "sub_folders": []
+      }]
+    }]
+  }, {
+    "id": 2,
+    "name": "TRASH",
+    "description": "TRASH FOLDER",
+    "created_at": null,
+    "upated_at": null,
+    "sub_folders": [{
+      "id": 291,
+      "name": "Old Photos",
+      "description": "Why did I keep these?",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }]
+  }, {
+    "id": 3,
+    "name": "PRIVATE",
+    "description": "PRIVATE FOLDER",
+    "created_at": null,
+    "upated_at": null,
+    "sub_folders": [{
+      "id": 41,
+      "name": "Private Times",
+      "description": "These are pictures I don't want anyone to see...",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }, {
+      "id": 55,
+      "name": "Unpublished photos",
+      "description": "Some stuff that's not ready",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": [{
+        "id": 547,
+        "name": "Old",
+        "description": "I should really root through these.",
+        "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+        "sub_folders": []
+      }]
+    }]
+  }]
+}
