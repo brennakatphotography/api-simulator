@@ -3,8 +3,8 @@
   "message": null,
   "data": [{
     "id": 17,
-    "name": "winter",
-    "description": "Taken on a particularly snowy day during a storm in April 2013.",
+    "name": "winter times",
+    "description": "These photos were taken on a particularly snowy day during a storm in April 2013. There is a lot to say about this because I want to handle wrapping in the UI. Hopefully this is enough text to develop against that.",
     "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
     "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
     "sub_folders": []
