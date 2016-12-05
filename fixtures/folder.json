@@ -7,6 +7,35 @@
     "description": "Puppies!",
     "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
     "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+    "sub_folders": [{
+      "id": 233,
+      "name": "People",
+      "description": "Interesting people I met",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }, {
+      "id": 234,
+      "name": "Wild life",
+      "description": "Dangerous animals",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }, {
+      "id": 333,
+      "name": "Places",
+      "description": "Planet Earth",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }, {
+      "id": 334,
+      "name": "Other",
+      "description": "Whatever and ever",
+      "created_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "upated_at": "Sun Apr 21 2013 13:26:11 GMT-0600 (MDT)",
+      "sub_folders": []
+    }],
     "photos": [{
       "id": 18,
       "name": "Rover",
