@@ -1,5 +1,8 @@
 class Photos < Sinatra::Base
   register Sinatra::Namespace
+  def rand_1_to_3 id
+    id >= 1 && id <= 3 ? id : Integer(Random.rand * 3 + 1)
+  end
 
   namespace '/bin/v1/photos' do
     get '/:id' do
@@ -8,7 +11,8 @@ class Photos < Sinatra::Base
     end
 
     get '/:id' do
-      send_file File.expand_path "bin/photos/public#{Integer(Random.rand * 3 + 1)}.jpg"
+      id = rand_1_to_3 Integer(params[:id])
+      send_file File.expand_path "bin/photos/public#{id}.jpg"
     end
 
     get '/:id/history/:history_id' do
