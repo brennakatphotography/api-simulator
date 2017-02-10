@@ -4,8 +4,7 @@ class Auth < Sinatra::Base
   namespace '/auth' do
     get '/login' do
       redirect to [
-        "#{request.scheme}://#{params['redirect_host']}",
-        params['redirect_path'],
+        params['redirect_uri'],
         '?token=',
         make_token
       ].join ''
