@@ -9,7 +9,7 @@ class PrivateFolders < Sinatra::Base
 
     post '' do
       pass unless logged_in?
-      json_response succeed 'Folder created', { :id => 744 }
+      json_response succeed 'Folder created', { :id => 744 }, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     end
 
     get '/root' do
@@ -19,17 +19,17 @@ class PrivateFolders < Sinatra::Base
 
     get '/:id' do
       pass unless logged_in?
-      json_response read_fixture 'folder.json'
+      json_response read_fixture 'private/folder.json'
     end
 
-    put '/:id' do
+    patch '/:id' do
       pass unless logged_in?
-      json_response succeed 'Folder updated', nil
+      json_response succeed 'Folder updated', nil, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     end
 
     delete '/:id' do
       pass unless logged_in?
-      json_response succeed 'Folder moved to TRASH', nil
+      json_response succeed 'Folder moved to TRASH', nil, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     end
   end
 end

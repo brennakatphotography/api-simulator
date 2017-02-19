@@ -7,6 +7,7 @@ require './helpers/auth'
 require './helpers/cors'
 require './routes/auth'
 require './routes/folders'
+require './routes/photos'
 require './bin/photos'
 
 class PhotoAPI < Sinatra::Base
@@ -16,16 +17,17 @@ class PhotoAPI < Sinatra::Base
   use Auth
   use Folders
   use Photos
+  use PhotosBin
 
   get '/healthcheck' do
-    json_response :system => 'OK'
+    json_response :a => :ok
   end
 
   route :get, :post, :put, :patch, :delete, :options, :head, '*' do
     if logged_in?
-      response = fail 'Unknown private resource', :logged_in => true
+      response = fail 'Unknown private resource', nil, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     else
-      response = fail 'Unknown public resource', :logged_in => false
+      response = fail 'Unknown public resource', nil, { :role => nil, :email => nil, :verified => false }
     end
     json_response response, 400
   end

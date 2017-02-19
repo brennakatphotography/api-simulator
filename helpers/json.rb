@@ -8,10 +8,10 @@ def read_fixture file
   JSON.parse File.read "#{__dir__}/../fixtures/#{file}"
 end
 
-def succeed message, data
-  { :success => true, :message => message, :data => data }
+def succeed message, data, authenticated
+  { :messages => { :api => message, :authenticated => authenticated }, :data => data }
 end
 
-def fail message, error
-  { :success => false, :message => message, :error => error }
+def fail message, error, authenticated
+  { :messages => { :api => message, :authenticated => authenticated, :error => error } }
 end

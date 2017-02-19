@@ -1,9 +1,9 @@
 {
   "messages": {
     "authenticated": {
-      "role": null,
-      "email": null,
-      "verified": false
+      "role": "power-user",
+      "email": "fake213@nothing.void",
+      "verified": true
     }
   },
   "data": {

@@ -1,6 +1,11 @@
 {
-  "success": true,
-  "message": null,
+  "messages": {
+    "authenticated": {
+      "role": null,
+      "email": null,
+      "verified": false
+    }
+  },
   "data": [{
     "id": 17,
     "name": "winter times",

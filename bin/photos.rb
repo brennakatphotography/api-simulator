@@ -1,4 +1,4 @@
-class Photos < Sinatra::Base
+class PhotosBin < Sinatra::Base
   register Sinatra::Namespace
   def rand_1_to_3 id
     id >= 1 && id <= 3 ? id : Integer(Random.rand * 3 + 1)

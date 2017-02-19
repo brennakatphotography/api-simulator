@@ -10,7 +10,7 @@ def test_user
       "image" => "http://www.example.com/photo.jpg"
     },
     "iat" => 1471832205,
-    "exp" => 1479608205
+    "exp" => 1979608205
   }
 end
 

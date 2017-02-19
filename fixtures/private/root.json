@@ -1,6 +1,11 @@
 {
-  "success": true,
-  "message": null,
+  "messages": {
+    "authenticated": {
+      "role": "power-user",
+      "email": "fake213@nothing.void",
+      "verified": true
+    }
+  },
   "data": [{
     "photos": [{
       "id": 18,

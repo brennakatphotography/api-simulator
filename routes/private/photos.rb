@@ -4,22 +4,22 @@ class PrivatePhotos < Sinatra::Base
   namespace '/api/v1/photos' do
     post '' do
       pass unless logged_in?
-      json_response succeed 'Photo saved', { :id => 971 }
+      json_response succeed 'Photo saved', { :id => 971 }, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     end
 
     post '/:id' do
       pass unless logged_in?
-      json_response succeed 'Photo version saved', nil
+      json_response succeed 'Photo version saved', nil, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     end
 
-    patch '/photos/:id' do
+    patch '/:id' do
       pass unless logged_in?
-      json_response succeed 'Photo details updated', nil
+      json_response succeed 'Photo details updated', nil, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     end
 
-    delete '/photos/:id' do
+    delete '/:id' do
       pass unless logged_in?
-      json_response succeed 'Photo moved to TRASH', nil
+      json_response succeed 'Photo moved to TRASH', nil, { :role => 'power-user', :email => 'fake213@nothing.void', :verified => true }
     end
 
     get '/:id/history' do
